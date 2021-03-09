@@ -1,0 +1,39 @@
+.header {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogo {
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+}
+
+.headerLogo:hover {
+  color: rgba(67, 136, 185, 1);
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+}
+
+.navLinkItem {
+  text-decoration: none;
+  color: rgba(67, 136, 185, 1);
+  margin-left: 20px;
+}
+
+.navLinkItem:hover {
+  color: #fff;
+}
+
+.menuButton {
+  display: none;
+}

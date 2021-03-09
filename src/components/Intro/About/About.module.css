@@ -1,0 +1,7 @@
+.about {
+  display: none;
+}
+
+.about.active {
+  display: block;
+}

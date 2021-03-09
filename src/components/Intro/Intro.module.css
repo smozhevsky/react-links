@@ -1,0 +1,10 @@
+.intro {
+  margin-top: 55px;
+}
+
+.introInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
