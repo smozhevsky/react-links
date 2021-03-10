@@ -1,17 +1,19 @@
-// import { React } from "react";
-// import About from "./About/About";
-// import classes from "./Intro.module.css";
-// import User from "./User/User";
-// import Contacts from "./contacts/Contacts";
+import { React } from "react";
+import About from "./About/About";
+import classes from "./Intro.module.css";
+import User from "./User/User";
+import Contacts from "./Contacts/Contacts";
 
-// const Intro = () => {
-//   return (
-//     <div className={classes.intro}>
-//       <div className={classes.introInner}>
+const Intro = () => {
+  return (
+    <div className={classes.intro}>
+      <div className={classes.introInner}>
+    <User/>
+    <About/>
+    <Contacts/>
+      </div>
+    </div>
+  );
+};
 
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Intro;
+export default Intro;
